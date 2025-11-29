@@ -1,0 +1,31 @@
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  .navbar, .btn {
+    display: none !important;
+  }
+
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  .card {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .card-header {
+    background-color: transparent !important;
+    color: black !important;
+    border-bottom: 2px solid black !important;
+  }
+}
+
+/* Dark mode tweaks if needed, but Bootstrap handles most */
+[data-bs-theme="dark"] body {
+  background-color: #212529;
+  color: #f8f9fa;
+}
